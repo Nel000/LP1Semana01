@@ -20,6 +20,9 @@ namespace TiposVarios
             double d = 2.75;
             decimal z = 53.213m;
 
+            bool b = true;
+            bool c = 4 > 5;
+
             Console.WriteLine(i);
             Console.WriteLine(ui);
             Console.WriteLine(l);
@@ -34,6 +37,11 @@ namespace TiposVarios
             Console.WriteLine(f);
             Console.WriteLine(d);
             Console.WriteLine(z);
+
+            Console.WriteLine();
+
+            Console.WriteLine(b);
+            Console.WriteLine(c);
         }
     }
 }
