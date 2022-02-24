@@ -16,6 +16,10 @@ namespace TiposVarios
             char copyrightSymbol = '\u00A9';
             char heart = '\u2665';
 
+            float f = 15.27f;
+            double d = 2.75;
+            decimal z = 53.213m;
+
             Console.WriteLine(i);
             Console.WriteLine(ui);
             Console.WriteLine(l);
@@ -24,6 +28,12 @@ namespace TiposVarios
 
             Console.WriteLine(copyrightSymbol);
             Console.WriteLine(heart);
+
+            Console.WriteLine();
+
+            Console.WriteLine(f);
+            Console.WriteLine(d);
+            Console.WriteLine(z);
         }
     }
 }
