@@ -26,6 +26,7 @@ namespace VariasStrings
             string ri = $@"{s} + {c} = {t} verbatim {x}";
 
             string sf = String.Format("{0} e {1}", s, t);
+            string rf = String.Format("{0} + {1} = {2}", 4, 6, x);
 
             Console.WriteLine(s);
             Console.WriteLine(t);
@@ -45,7 +46,12 @@ namespace VariasStrings
             Console.WriteLine();
 
             Console.WriteLine(sf);
+            Console.WriteLine(rf);
+
             Console.WriteLine();
+
+            Console.WriteLine($"Valor de x é {x}");
+            Console.WriteLine(@"Verbatim com x = {0}", x);
         }
     }
 }
