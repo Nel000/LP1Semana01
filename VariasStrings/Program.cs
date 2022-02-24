@@ -9,6 +9,9 @@ namespace VariasStrings
         {
             Console.OutputEncoding = Encoding.UTF8;
 
+            double xx = 0.12345;
+            int ii = 18;
+
             int x = 10;
             char c = 'a';
 
@@ -52,6 +55,13 @@ namespace VariasStrings
 
             Console.WriteLine($"Valor de x é {x}");
             Console.WriteLine(@"Verbatim com x = {0}", x);
+
+            Console.WriteLine();
+
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p1}");
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
         }
     }
 }
